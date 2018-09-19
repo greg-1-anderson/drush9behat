@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a970cb984857ee8609f573c5d8801b15",
+    "content-hash": "f8ef86ca92524a84300896f8faa9b526",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2102,16 +2102,16 @@
         },
         {
             "name": "drush-ops/behat-drush-endpoint",
-            "version": "dev-drush-9-support",
+            "version": "dev-arosboro-drush9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/behat-drush-endpoint.git",
-                "reference": "3574ae59704b73aa7db6f0ef8b3192fe2f6c8cb1"
+                "reference": "7384684e82815e3dae92a0818b7ffca64278545c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/3574ae59704b73aa7db6f0ef8b3192fe2f6c8cb1",
-                "reference": "3574ae59704b73aa7db6f0ef8b3192fe2f6c8cb1",
+                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/7384684e82815e3dae92a0818b7ffca64278545c",
+                "reference": "7384684e82815e3dae92a0818b7ffca64278545c",
                 "shasum": ""
             },
             "require": {
@@ -2129,7 +2129,7 @@
                 "Drush",
                 "testing"
             ],
-            "time": "2018-09-19T20:58:34+00:00"
+            "time": "2018-09-19T21:18:18+00:00"
         },
         {
             "name": "drush/drush",
