@@ -24,7 +24,9 @@ PATH=$PATH:~/.composer/vendor/bin
 terminus aliases
 
 # Fix up aliases file (db-url interferes with Drush 9, so delete it)
-sed -i '' -e '/db-url/d' $HOME/.drush/pantheon.aliases.drushrc.php
+sed -i'' -e '/db-url/d' $HOME/.drush/pantheon.aliases.drushrc.php
+drush sa @pantheon.$TERMINUS_SITE.$TERMINUS_ENV
+drush @pantheon.$TERMINUS_SITE.$TERMINUS_ENV status
 
 # Drush Behat driver fails without this option.
 echo "\$options['strict'] = 0;" >> ~/.drush/pantheon.aliases.drushrc.php
