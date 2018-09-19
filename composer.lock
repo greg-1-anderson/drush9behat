@@ -2107,12 +2107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/behat-drush-endpoint.git",
-                "reference": "7384684e82815e3dae92a0818b7ffca64278545c"
+                "reference": "9932cbb13ee1b13082c0b9bc0e7ce4cb9c81711d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/7384684e82815e3dae92a0818b7ffca64278545c",
-                "reference": "7384684e82815e3dae92a0818b7ffca64278545c",
+                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/9932cbb13ee1b13082c0b9bc0e7ce4cb9c81711d",
+                "reference": "9932cbb13ee1b13082c0b9bc0e7ce4cb9c81711d",
                 "shasum": ""
             },
             "require": {
@@ -2130,7 +2130,7 @@
                 "Drush",
                 "testing"
             ],
-            "time": "2018-09-19T21:18:18+00:00"
+            "time": "2018-09-19T22:49:20+00:00"
         },
         {
             "name": "drush/drush",
