@@ -74,6 +74,12 @@ Feature: Content
 #    Then I should see the heading "My tag"
 
   @api
+  Scenario: Ensure no terms to start
+    When I am logged in as a user with the "administrator" role
+    When I go to "admin/structure/taxonomy/manage/tags/overview"
+    Then I should not see "Tag one"
+
+  @api
   Scenario: Create many terms
     Given "tags" terms:
     | name    |
